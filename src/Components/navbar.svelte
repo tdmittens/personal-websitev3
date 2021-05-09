@@ -1,5 +1,5 @@
 <script>
-
+    import { Link } from "svelte-routing"
 </script>
 
 
@@ -8,12 +8,12 @@
         <div class="navbar-logo">
             <h4>Tarandeep Mittal</h4>
         </div>
-        <ul class="navbar-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Music</a></li>
-            <li><a href="/">Projects</a></li>
-        </ul>
+        <nav class="navbar-links">
+            <Link to="/">Home</Link>
+            <Link to="resume">Resume</Link>
+            <Link to="music">Music</Link>
+            <Link to="projects">Projects</Link>
+        </nav>
     </div>
 </main>
 
@@ -35,13 +35,11 @@
         display:flex;
         justify-content: space-around;
         width: 30%;
-        list-style-type: none;        
-    }
-    .navbar-links a {
+        list-style-type: none;    
         color: white;
         text-decoration: none;
         letter-spacing: 3px;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 14px;    
     }
 </style>

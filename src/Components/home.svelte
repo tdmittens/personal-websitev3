@@ -1,10 +1,12 @@
 <script>
 import App from "../App.svelte";
+import Navbar from './Navbar.svelte'
 let src_image = "me.jpeg"
 
 </script>
 
 <main>
+    <Navbar/>
     <div class="bio">
         <div class="bio-picture">
             <img class="bio-picture-specs" src={src_image} alt="Tarandeep Mittal">
