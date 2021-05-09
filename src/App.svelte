@@ -1,10 +1,10 @@
 <script>
 	import { Router, Link, Route } from "svelte-routing"
 
-	import Home from './Components/Home.svelte'
-	import About from './Components/About.svelte'
-	import Music from './Components/Music.svelte'
-	import Projects from './Components/Projects.svelte'
+	import Home from './Home.svelte'
+	import About from './About.svelte'
+	import Music from './Music.svelte'
+	import Projects from './Projects.svelte'
 
 	export let url = "" ;
 
