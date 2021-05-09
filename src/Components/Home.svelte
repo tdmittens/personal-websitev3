@@ -28,7 +28,7 @@ let src_image = "me.jpeg"
         </div>
         
         <div class="bio-footer">
-            <p>Designed and <a href="https://github.com/tdmittens/personal-websitev3"> developed </a> by Tarandeep Mittal with ❤ and 😭.</p>            
+            <p>Designed and <a href="https://github.com/tdmittens/personal-websitev3"> developed </a> with ❤ and 😭.</p>            
         </div>
     </div>
 </main>
