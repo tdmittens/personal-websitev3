@@ -23,7 +23,7 @@
         display:flex;
         justify-content: space-around;
         align-items: center;
-        min-height: 10vh;
+        height: 10vh;
         background-color: #1c1b22;
     }
     .navbar-logo {

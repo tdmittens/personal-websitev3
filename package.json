@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0",
+    "svelte-routing": "^1.6.0",
     "tailwindcss": "^2.1.2"
   }
 }
