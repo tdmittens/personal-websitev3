@@ -10,7 +10,7 @@
         </div>
         <nav class="navbar-links">
             <Link to="/">Home</Link>
-            <Link to="tarandeep.pdf">Resume</Link>
+            <Link to="resume">Resume</Link>
             <Link to="music">Music</Link>
             <Link to="projects">Projects</Link>
         </nav>
