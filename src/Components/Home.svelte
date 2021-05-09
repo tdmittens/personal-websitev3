@@ -1,5 +1,4 @@
 <script>
-import App from "../App.svelte";
 import Navbar from './Navbar.svelte'
 let src_image = "me.jpeg"
 
