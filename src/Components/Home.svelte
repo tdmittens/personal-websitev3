@@ -12,7 +12,7 @@ let src_image = "me.jpeg"
         </div>
         <div class="bio-text">
             <p>
-                Hi, I'm Tarandeep! Currently, I'm based in Toronto and have recently finished my Industrial Engineering degree at Ryerson University. I also help to organize <a href="https://ruhacks.com/">RU Hacks</a> and work as a part of the Ethics Committee on the World Cube Association!
+                Hi, I'm Tarandeep! Currently, I'm based in Toronto and have recently finished my Industrial Engineering degree at Ryerson University.
                 In my free time, I find myself playing <a href="https://steamcommunity.com/id/dipmaestro/"> video games</a>, 
                 solving variants of the <a href="https://www.worldcubeassociation.org/persons/2014MITT02">rubik's cube</a>, 
                 and listening to lots of <a href="https://open.spotify.com/user/mittaltarandeep">music</a>!
