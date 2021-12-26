@@ -11,7 +11,7 @@
         <nav class="navbar-links">
             <Link to="/">Home</Link>
             <Link to="music">Music</Link>
-            <Link to="projects">Projects</Link>
+            <!-- <Link to="projects">Projects</Link> -->
         </nav>
     </div>
 </main>
