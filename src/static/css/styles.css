@@ -1,0 +1,128 @@
+p {
+    text-align: left;
+}
+.bio {
+    padding-top: 20px;
+    padding-right: 30vw;
+    padding-bottom: 20px;
+    padding-left: 30vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bio-picture{
+    flex: 1 0 30%;
+}
+.bio-text{
+    flex: 1 1 40%;
+}
+.bio-gitactivity{
+    flex: 1 1 20%;
+}
+.bio-footer{
+    flex: 1 1 10%;
+    
+}
+.bio-picture-specs{
+    filter: grayscale(40%);
+    max-height: 40vh;
+    max-width: 100%;
+    border-radius: 40px;
+    left: 0;
+    top: 0;
+}
+.bio-github {
+    filter: invert(97%) hue-rotate(195deg) grayscale(0.4);
+    max-width: 100%; 
+}
+
+.music-container{
+    padding-top:5vh;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.music-section{
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.navbar-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #1c1b22;
+}
+.navbar-logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.navbar-links {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style-type: none;    
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;    
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: white;
+	background-color: black;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 20px;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+a {
+	color: #84a59d;
+}
