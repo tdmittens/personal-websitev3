@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+        <title>Tarandeep Mittal - {{ title }}</title>
+    {% else %}
+        <title>Tarandeep Mittal</title>
+    {% endif %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div>
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <h4>Tarandeep Mittal</h4>
+            </div>
+            <nav class="navbar-links">
+                <a href="/">
+                    <img class="navbar-img-revert" src="static/public/img/home.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="/music">
+                    <img class="navbar-img-revert" src="static/public/img/music.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="https://www.linkedin.com/in/tarandeepmittal">
+                    <img class="navbar-img-revert" src="static/public/img/linkedin.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="https://github.com/tdmittens">
+                    <img class="navbar-img-revert" src="static/public/img/github.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <!-- <Link to="projects">Projects</Link> -->
+            </nav>
+        </div>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
