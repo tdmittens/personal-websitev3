@@ -8,7 +8,7 @@
         <title>Tarandeep Mittal - {{ title }}</title>
     {% else %}
         <title>Tarandeep Mittal</title>
-    {% endif %}2
+    {% endif %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
@@ -18,8 +18,18 @@
                 <h4>Tarandeep Mittal</h4>
             </div>
             <nav class="navbar-links">
-                <a href="/">News</a>
-                <a href="/music">Music</a>
+                <a href="/">
+                    <img class="navbar-img-revert" src="static/public/img/home.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="/music">
+                    <img class="navbar-img-revert" src="static/public/img/music.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="https://www.linkedin.com/in/tarandeepmittal">
+                    <img class="navbar-img-revert" src="static/public/img/linkedin.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
+                <a href="https://github.com/tdmittens">
+                    <img class="navbar-img-revert" src="static/public/img/github.png" alt="HTML tutorial" style="width:42px;height:42px;">
+                </a>
                 <!-- <Link to="projects">Projects</Link> -->
             </nav>
         </div>
