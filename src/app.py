@@ -20,7 +20,7 @@ def capstone():
 
 
 @app.route("/resume")
-def capstone():
+def resume():
     return redirect("https://drive.google.com/file/d/1BYSEGBtj_gKo4_ecNEJyKXzusUg2aLI8/view?usp=sharing")
 
 
