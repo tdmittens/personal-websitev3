@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, send_file, current_app
 
 app = Flask(__name__)
 
@@ -20,8 +20,12 @@ def capstone():
 
 
 @app.route("/resume")
-def resume():
-    return redirect("https://drive.google.com/file/d/1BYSEGBtj_gKo4_ecNEJyKXzusUg2aLI8/view?usp=sharing")
+# def resume():
+#     return redirect("https://drive.google.com/file/d/1BYSEGBtj_gKo4_ecNEJyKXzusUg2aLI8/view?usp=sharing")
+def show_static_pdf():
+    return send_file('static/public/tarandeep.pdf', download_name='resume.pdf')
+    # with open('src/static/public/tarandeep.pdf', 'rb') as static_file:
+    #     return send_file(static_file, attachment_filename='tarandeep.pdf')
 
 
 # this conditional, when running directly, will start debug mode
