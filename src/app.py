@@ -14,9 +14,9 @@ def music():
     return render_template('music.html', title="Music")
 
 
-@app.route("/capstone")
-def capstone():
-    return redirect("https://www.youtube.com/watch?v=cSDPUYppi0Q")
+# @app.route("/capstone")
+# def capstone():
+#     return redirect("https://www.youtube.com/watch?v=cSDPUYppi0Q")
 
 
 @app.route("/resume")
