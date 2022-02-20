@@ -8,11 +8,22 @@
         <title>Tarandeep Mittal - {{ title }}</title>
     {% else %}
         <title>Tarandeep Mittal</title>
-    {% endif %}
+    {% endif %}2
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    {% block navbar %}{% endblock %}
+    <div>
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <h4>Tarandeep Mittal</h4>
+            </div>
+            <nav class="navbar-links">
+                <a href="/">News</a>
+                <a href="/music">Music</a>
+                <!-- <Link to="projects">Projects</Link> -->
+            </nav>
+        </div>
+    </div>
     {% block content %}{% endblock %}
 </body>
 </html>
